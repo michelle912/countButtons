@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <script src="scripts/countingButton.js"></script>
+        <title>Counter</title>
+      </head>
+      <body>
+        <div>
+          <table class="center">
+            <tr>
+              <td> <button type="button" onclick="incrementCounter('firstNumber')">+</button></td>
+              <td id="firstNumber"> 5 </td>
+              <td> <button type="button" onclick="decrementCounter('firstNumber')">-</button></td>
+            </tr>
+            <tr>
+              <td> <button type="button" onclick="incrementCounter('secondNumber')">+</button></td>
+              <td id="secondNumber"> -2 </td>
+              <td> <button type="button" onclick="decrementCounter('secondNumber')">-</button></td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <p class="center">sum: <span id="sum">3</span></p>
+        </div>
+        
+      </body>
+</html>
